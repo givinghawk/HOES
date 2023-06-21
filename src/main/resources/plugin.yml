@@ -1,0 +1,4 @@
+name: HOES
+version: '${project.version}'
+main: givinghawk.everything_is_a_hoe.HOES
+api-version: 1.15
