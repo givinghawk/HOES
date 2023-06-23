@@ -8,6 +8,8 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
+import org.bukkit.Bukkit.dispatchCommand;
+import org.bukkit.server;
 
 public class playerJoin implements Listener {
     @EventHandler
