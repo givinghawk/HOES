@@ -1,5 +1,6 @@
 package givinghawk.everything_is_a_hoe;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -8,7 +9,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-import org.bukkit.Bukkit.dispatchCommand;
+import org.bukkit.dispatchCommand;
 import org.bukkit.server;
 
 public class playerJoin implements Listener {
