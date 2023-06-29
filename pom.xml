@@ -6,7 +6,7 @@
 
     <groupId>givinghawk</groupId>
     <artifactId>everything_is_a_hoe</artifactId>
-    <version>1.1.1</version>
+    <version>1.2</version>
     <packaging>jar</packaging>
 
     <name>HOES</name>
