@@ -10,7 +10,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.command.ConsoleCommandSender;
-import org.bukkit;
 
 public class playerJoin implements Listener {
     @EventHandler
