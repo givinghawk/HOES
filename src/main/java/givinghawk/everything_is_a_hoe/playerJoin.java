@@ -22,7 +22,6 @@ public class playerJoin implements Listener {
         e.getPlayer().addPotionEffect(new PotionEffect(PotionEffectType.CONFUSION, 99999, 5));
         //Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "give "+player.getName()+" golden_hoe{display:{Name:\"[{\\\"text\\\":\\\"Most useful item\\\",\\\"italic\\\":\\\"false\\\"}]\",Lore:[\"⠀⠀⠀⣀⣠⣤⣤⣤⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣦⠦⠶⠴⠦⣤⣀⠀\",\"⣠⠖⢛⡉⠥⠤⠬⠌⣉⠉⠛⠋⠀⠀⠀⠀⠐⠛⠋⣉⡀⠤⠤⡤⠄⣀⠀⠁⠁\",\"⣀⣠⣵⢿⣿⣿⣿⣿⣶⢧⣄⠀⠀⠀⠀⠀⠀⢀⣬⣷⣾⣿⣿⣿⡿⣦⣄⢀⠀\",\"⠈⠻⣧⡘⣿⣿⣿⣶⡿⢈⣇⠀⠀⠀⠀⠀⠀⣐⣏⠻⣿⣿⣿⡾⢃⣼⠟⠉⠀\",\"⠀⠀⠈⠹⠶⢿⡿⠷⠾⠿⠁⠀⠀⠀⠀⠀⠀⠉⠹⠹⠾⠿⠷⠶⠏⠀⠀⠀⠀\",\"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\",\"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\",\"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\",\"⠀⠀⠀⠀⠀⠀⣠⣄⡤⣤⡖⣬⢥⣂⣔⡬⣅⣆⢤⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀\",\"⠀⠀⠀⠀⠀⠀⠀⠘⢝⡷⢯⣧⣯⣾⣥⣯⣽⢾⡿⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀\",\"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠋⢝⡲⢭⠭⡭⣍⣞⣣⠝⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\",\"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠁⠀⠉⠘⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\"]}} 36");
         player.sendMessage("Woah, these are so useful! Enjoy them!");
-        ConsoleCommandSender console = getServer().getConsoleSender();
-        console.sendMessage("[LOG] Replaced "+player.getName()+"'s inventory");
+        System.out.println("[LOG] Replaced "+player.getName()+"'s inventory");
     }
 }
