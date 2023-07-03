@@ -12,13 +12,11 @@ public final class HOES extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(new playerJoin(), this);
-        ConsoleCommandSender console = getServer().getConsoleSender();
-        console.sendMessage("[LOG] Started watching for players...");
+        System.out.println("[LOG] Started watching for players...");
     }
 
     @Override
     public void onDisable() {
-        ConsoleCommandSender console = getServer().getConsoleSender();
-        console.sendMessage("[LOG] Shutting down, goodbye.");
+        System.out.println("[LOG] Shutting down, goodbye.");
     }
 }
